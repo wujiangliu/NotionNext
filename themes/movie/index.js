@@ -104,9 +104,9 @@ const LayoutBase = props => {
         <Footer {...props} />
 
         {/* 搜索框 */}
-        /*
+        
         <AlgoliaSearchModal cRef={searchModal} {...props} />
-        */
+        
 
         {/* 回顶按钮 */}
         <div className='fixed right-4 bottom-4 z-10'>
@@ -336,7 +336,7 @@ const Layout404 = props => {
       searchModal.current.openSearch()
     }
   }
-/*
+
   const onKeyUp = e => {
     if (e.keyCode === 13) {
       const search = document.getElementById('search').value
@@ -345,7 +345,7 @@ const Layout404 = props => {
       }
     }
   }
-  */
+  
 
   return (
     <>
@@ -357,9 +357,7 @@ const Layout404 = props => {
             autoFocus
             id='search'
             onClick={toggleShowSearchInput}
-            /*
             onKeyUp={onKeyUp}
-            */
             className='float-left w-full outline-none h-full p-2 rounded dark:bg-[#383838] bg-gray-100'
             aria-label='Submit search'
             type='search'
