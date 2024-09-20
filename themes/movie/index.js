@@ -334,7 +334,7 @@ const Layout404 = props => {
       searchModal.current.openSearch()
     }
   }
-
+/*
   const onKeyUp = e => {
     if (e.keyCode === 13) {
       const search = document.getElementById('search').value
@@ -343,6 +343,7 @@ const Layout404 = props => {
       }
     }
   }
+  */
 
   return (
     <>
